@@ -1,0 +1,257 @@
+body {
+}
+
+* {
+    margin:0 1px 0px 0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+.app__khung {
+    width:1446px;
+}
+.header {
+    background-color:rgb(187, 54, 54);
+    padding:10px 0 0;
+    height:170px;
+}
+
+.image__logo {
+    padding-right:20px;
+    padding-top:15px;
+    
+}
+.header__address {
+    color: gray;
+    font-size: 14px;
+    text-decoration:none;
+    line-height: 15px;
+    margin-right: 21px;
+    width: 13%;
+    padding: 4px 6px 4px 10px;
+    border: 1px solid rgba(168,208,255,.38);
+    border-radius: 4px;
+    position: relative;
+    top: -50px;
+    left: 300px;
+}
+
+.header__search {
+    position:relative;
+    width:22%;
+    border-radius:4px;
+    background-color:#fff;
+    text-align:left;
+    top: -150px;
+    left: 503px;
+}
+
+    .header__search input {
+        background-color: #fff;
+        border: none;
+        border-radius: 4px;
+        color: #999;
+        font-size: 12px;
+        line-height: 14px;
+        height: 40px;
+        padding: 8px 8px 8px 13px;
+        width: calc(100% - 35px);
+        
+}
+.header__listtop {
+    float:right;
+    list-style-type:none;
+    top:-90px;
+
+    
+}
+    .header__listtop li {
+        display:inline-block;
+    }
+        .header__listtop li a {
+            color:white;
+            text-decoration:none;
+            text-align:center;
+            padding:10px;
+            border-right: solid thin white;
+            line-height:16px;
+        }
+#header__listtop--end {
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    border-right: none;
+}
+.main__menu_c1 {
+    list-style-type:none;
+}
+
+    .main__menu_c1 li {
+        display: inline-block;
+        padding:20px;
+    }
+        .main__menu_c1 li a {
+            color:white;
+            font-size:17px;
+            font-weight:bold;
+            text-decoration:none;
+        }
+.main__menu_c2 {
+    display:none;
+    position:absolute;
+}
+    .main__menu_c2 li {
+        display:grid;
+        padding:12px;
+        background-color:white;
+        border-bottom: 1px solid #ebebeb;
+        cursor:pointer;
+        white-space:nowrap;
+       
+    }
+        .main__menu_c2 li a {
+            color:#333;
+            font-size:14px;
+            text-decoration:none;        
+        }
+        .main__menu_c2 li span a {
+            display:inline-block;        
+        }
+.main__menu_c1:hover .main__menu_c2 {
+    display: block;
+}
+
+
+.banner__promote {
+    background-color:#fff;
+    margin-top:30px;
+    padding: 20px 0;
+    
+}
+   .banner__promote--Quanao-h3 {
+        font-weight:bold;
+        font-size:20px;
+        line-height:24px;
+        color:#333;
+        padding-left:10px;
+        margin:0 20px 10px;
+        border-left: 4px solid #1D3822;
+    }
+
+    .banner__promote li {
+        display:inline-block;
+        width:calc(100%-400px-5px);
+        display:inline-block;
+        bottom:-100px;
+        padding:10px;
+}
+.banner__promote--Quanao{
+    width:188px;
+    border: 1px solid #f1f1f1;
+    display:flexbox;
+    height:400px;
+    vertical-align:bottom;
+    bottom: 100px;
+    
+}
+.banner__promote--Quanao-img {
+    margin-top:10px;
+    position:relative;
+    margin-bottom:10px;
+    display:block;
+    line-height:225px;
+    top: 19px;
+    left: -3px;
+    height: 207px;
+    vertical-align:central;
+}
+.result_label {
+    background: linear-gradient(to right,#ef3006,#c60004);
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 15px;
+    overflow: hidden;
+    max-width: 100%;
+    padding-right: 8px;
+    max-height: 30px;
+    display:inline-block;
+}
+    .result_label span {
+        color: #fff;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        font-size: 15px;
+        line-height: 13px;
+        margin-left: 3px;
+        overflow: hidden;
+        padding: 4px 0 0 3px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        -webkit-line-clamp: 2;
+        text-transform: uppercase;
+    }
+.banner__promote--Quanao h3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+.txt-online {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 0 !important;
+    margin-bottom: 5px;
+}
+.txt-online-item {
+    font-size: 0;
+    margin-bottom: 5px
+}
+    .txt-online-item span {
+        border: 1px solid #e0e0e0;
+        border-radius: 2px;
+        color: #333;
+        display: inline-block;
+        font-size: 12px;
+        line-height: 12px;
+        margin-right: 5px;
+        padding: 4px 5px;
+        white-space: nowrap;
+    }
+.box {
+    margin-top:5px;
+}
+.price-old {
+    color:#333;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: line-through;
+}
+.percent {
+    color: #333;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 17px;
+}
+.price {
+    color:#333;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+        
+    
+
+
+
+
+
+  
